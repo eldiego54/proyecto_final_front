@@ -3,7 +3,7 @@
 
 import { EmblaCarousel } from '@/components/Carrousel_auto'
 import React from 'react'
-import { Brands } from '@/components/Slides_brands'
+import Brands from '../../data/products.json'
 
 
 const Carrusel = () => {
