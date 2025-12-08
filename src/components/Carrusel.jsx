@@ -16,4 +16,4 @@ const Carrusel = () => {
   )
 }
 
-export default Carrusel
+export default Carrusel    // exportar al index principal para renderizar
