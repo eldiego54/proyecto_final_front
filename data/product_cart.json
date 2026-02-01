@@ -1,0 +1,52 @@
+
+ {
+   "product_cart": [{
+    "id": 1,
+    "name": "Tablet 10 pulgadas con teclado",
+    "price": 59.99,
+    "image": "/assets/images/img13_2.jpg",
+    "category": "Computacion",
+    "description": "Tablet con pantalla de 10 pulgadas, teclado integrado y 32GB de almacenamiento"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone 128GB",
+    "price": 499.99,
+    "image": "/assets/images/img7_3.jpg",
+    "category": "Móviles",
+    "description": "Smartphone con pantalla AMOLED de 6.5 pulgadas, 128GB de almacenamiento y 4GB de RAM"
+   },
+  {
+    "id": 3,
+    "name": "Notebook HP 15.6",
+    "price": 89.99,
+    "image": "/assets/images/img16_3.jpg",
+    "category": "Computación",
+    "description": "Notebook HP 15.6 pulgadas con procesador Intel Core i5 y 8GB de RAM"
+
+  },
+   {
+    "id": 4,
+    "name": "Parlante Bluetooth",
+    "price": 39.99,
+    "image": "/assets/images/img12_1.jpg",
+    "category": "Audio",
+    "description": "Parlante Bluetooth portátil con duración de batería de hasta 8 horas y conexión inalámbrica"
+   },
+   {
+    "id": 5,
+    "name": "TV Led 50",
+    "price": 149.99,
+    "image": "/assets/images/img5_1.jpg",
+    "category": "TV",
+    "description": "Televisor LED de 50 pulgadas con resolución 4K y sonido envolvente. Conexión HDMI y USB"
+   },
+   {
+    "id": 6,
+    "name": "Mini parlante blueetooth",
+    "price": 79.99,
+    "image": "/assets/images/img4_1.jpg",
+    "category": "Audio",
+    "description": "Parlante Bluetooth portátil con micrófono y 5 horas de duración de batería. Conexión Bluetooth 5.0 y cable USB para carga. Diseño compacto y portátil para llevar a cualquier lugar."
+   }
+  ]}

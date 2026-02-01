@@ -18,9 +18,9 @@ const CartPage = () => {
         ← Seguir comprando
       </a>
 
-      {cart.length === 0 ? (
+      {cart.length === 0 ? 
         <p className="text-gray-600">Tu carrito está vacío.</p>
-      ) : (
+       : (
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Lista de productos */}
           <div className="lg:col-span-2 space-y-6">
@@ -96,7 +96,6 @@ const CartPage = () => {
     </main>
   );
 };
-
 export default CartPage;
 
 
