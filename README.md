@@ -3,7 +3,6 @@
 
 **E-commerce/Dashboard moderno** construido con **Next.js 15 (App Router)** + **React 19** + **TailwindCSS**. Conectado a backend mock (JSON-Server).
 
-![Screenshot](https://via.placeholder.com/1200x600/1E3A8A/FFFFFF?text=Next.js+15+Dashboard)
 
 ## ✨ **Características principales**
 
