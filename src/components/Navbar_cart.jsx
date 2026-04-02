@@ -6,7 +6,8 @@ import { ShoppingCartIcon } from 'lucide-react';
 import { Search } from 'lucide-react';// Icono de carrito de compras
 import { CartContext } from "../context/CartContext";
 import { useState, useEffect, useContext } from 'react';
- import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+
 
 export default function Navbar_cart() {
   
@@ -104,10 +105,10 @@ export default function Navbar_cart() {
           </div>
         <div>
          <nav className="hidden md:flex justify-end items-end pr-10 gap-12 space-x-8">
-              <a href="#home" className="text-white hover:text-gray-500 transition-colors font-medium">Inicio</a>
-              <a href="#about" className="text-white hover:text-gray-500 transition-colors font-medium">Productos</a>
-              <a href="#services" className="text-white hover:text-gray-500 transition-colors font-medium">Sobre nosotros</a>
-              <a href="#contact" className="text-white hover:text-gray-500 transition-colors font-medium">Contacto</a>
+              <a href="/" className="text-white hover:text-gray-500 transition-colors font-medium">Inicio</a>
+              <a href="/product" className="text-white hover:text-gray-500 transition-colors font-medium">Productos</a>
+              <a href="/about" className="text-white hover:text-gray-500 transition-colors font-medium">Sobre nosotros</a>
+              <a href="/contact" className="text-white hover:text-gray-500 transition-colors font-medium">Contacto</a>
         </nav>
             </div>
       
@@ -121,29 +122,29 @@ export default function Navbar_cart() {
         <div className="flex flex-col justify-start h-full pt-20 px-6 pb-12 space-y-6">
           <nav className="flex flex-col space-y-6 text-center">
             <a 
-              href="#home" 
-              className="text-2xl font-semibold text-gray-900 hover:text-blue-600 transition-colors py-2"
+              href="/" 
+              className="text-xl font-semibold text-gray-900 hover:text-blue-600 transition-colors py-2"
               onClick={toggleMenu}
             >
               Inicio                            
             </a>
             <Link 
-              href="/Productos" 
-              className="text-2xl font-semibold text-gray-900 hover:text-blue-600 transition-colors py-2"
+              href="/product" 
+              className="text-xl font-semibold text-gray-900 hover:text-blue-600 transition-colors py-2"
               onClick={toggleMenu}
             >
               Productos
             </Link>
             <Link 
-              href="/Nosotros" 
-              className="text-2xl font-semibold text-gray-900 hover:text-blue-600 transition-colors py-2"
+              href="/about" 
+              className="text-xl font-semibold text-gray-900 hover:text-blue-600 transition-colors py-2"
               onClick={toggleMenu}
             >
               Nosotros
             </Link>
             <Link 
-              href="/contacto" 
-              className="text-2xl font-semibold text-gray-900 hover:text-blue-600 transition-colors py-2"
+              href="/contact" 
+              className="text-xl font-semibold text-gray-900 hover:text-blue-600 transition-colors py-2"
               onClick={toggleMenu}
             >
               Contacto
