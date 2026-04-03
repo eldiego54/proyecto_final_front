@@ -163,7 +163,7 @@ const Contact = () => {
           <label htmlFor="privacidad" className="ml-3 text-xs text-gray-700 leading-6 md:text-sm">
             He leído y acepto{' '}
             <a
-              href="https://laelectronicaonline.com.ar/politica-de-privacidad"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
